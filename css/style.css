@@ -1,5 +1,7 @@
 /*header*/
-
+body{
+  min-width: 1170px;
+}
 header{
   position: relative;
   margin: 0 auto;
@@ -139,6 +141,11 @@ footer{
   border-bottom: 1px solid #302c2d;
 
 }
+footer:after{
+  clear: both;
+  content: '';
+  display: block;
+}
 .follow{
   float: left;
 }
@@ -166,4 +173,40 @@ footer{
   color: rgb(254, 254, 254);
   line-height: 1.2;
   color: #9a9a9a;
+}
+.left-column, 
+.right-column{
+  display: inline-block;
+  vertical-align: top;
+}
+.right-column{
+  width: 610px;
+  margin-left: 18px;
+  margin-bottom: 50px;
+}
+.right-column h2{
+  font-size: 40px;
+  text-align: center;
+}
+.right-column h3{
+  margin-left: 30px;
+  font-size: 22px;
+  font-family: "MyriadPro";
+  color: white;
+  line-height: 2;
+}
+.body .right-column p{
+  margin-top: 0px;
+  font-size: 18px;
+  font-family: "MyriadPro";
+  color: white;
+  font-style: normal;
+}
+.buttons{
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+[alt="next"]{
+  transform: rotate(180deg);
 }
