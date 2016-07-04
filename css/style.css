@@ -210,3 +210,47 @@ footer:after{
 [alt="next"]{
   transform: rotate(180deg);
 }
+/*contact*/
+.body form p{
+  font-style: normal;
+  display: inline-block;
+  margin-right: 209px;
+  margin-bottom: 10px;
+}
+input{
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+textarea{
+  width: 642px;
+  height: 200px;
+  resize: none;
+}
+[type="submit"]{
+  width: 152px;
+  height: 24px;
+  border: 0;
+  border-radius: 5px;
+  color: #343434;
+  font-family: MyriadPro;
+  font-size: 18px;
+  font-weight: 400;
+  background-image: linear-gradient(180deg, #f99200 0%, #e07004 100%);
+}
+.craft img{
+  float: left;
+  margin-right: 20px;
+  margin-top: -40px;
+}
+.craft h2{
+  margin-top: 40px;
+  line-height: 0px;
+}
+.craft img:nth-child(4){
+  margin-top: 20px;
+  float: right;
+}
+.clearfix{
+  clear: both;
+}
